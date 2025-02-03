@@ -1,0 +1,29 @@
+#home{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#home1{
+    margin-left: 50px;
+    margin-top: 100px;
+    
+}
+#homeImg{
+    margin-left: 150px;
+    width: 500px;
+    height: 450px;
+    display: flex;
+    margin-top: 10px;
+}
+#h1Color{
+    color: orangered;
+    width: 100px;
+    margin-top: -30px;
+    width: 500px;
+}
+#butoonColor{
+    background-color: black;
+    color: wheat;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+  }
