@@ -6,6 +6,7 @@ import RestoreIcon from '@mui/icons-material/Restore';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import './iconHome.css'
+import { colors } from '@mui/material';
 
 export default function SimpleBottomNavigation() {
   const [value, setValue] = React.useState(0);
@@ -20,7 +21,7 @@ export default function SimpleBottomNavigation() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Locate Us" icon={<LocationOnIcon />} />
+        <BottomNavigationAction  label="Locate Us" icon={<LocationOnIcon />} />
         <BottomNavigationAction label="Open Hours" icon={<RestoreIcon />} />
         <BottomNavigationAction label="Reservation" icon={<FavoriteIcon />} />
         

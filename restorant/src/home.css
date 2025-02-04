@@ -27,3 +27,20 @@
     height: 50px;
     border-radius: 5px;
   }
+  #homeEnd{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px;
+  }
+  #HomeH{
+    margin-left: 50px;
+  }
+  /* #HomeH2{
+   margin-left: 300px;
+   margin-bottom: 200px;
+   
+  } */
+  #Home3{
+    display: grid;
+    grid-template-columns: auto auto;
+  }

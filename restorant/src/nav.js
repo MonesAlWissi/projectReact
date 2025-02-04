@@ -1,3 +1,7 @@
+
+
+
+
 import * as React from 'react';
 import PropTypes from 'prop-types';
 import AppBar from '@mui/material/AppBar';
@@ -15,6 +19,9 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material';
+import './nav.css'
+
+import { Link } from 'react-router-dom';
 
 const drawerWidth = 2400;
 const navItems = ['HOME', 'ABOUT', 'MENU','RESERVATION','CONTACT',<button>LOGIN</button>];
@@ -42,6 +49,7 @@ const drawer = (
         ))}
       </List>
     </Box>
+    
   );
 
   const container = window !== undefined ? () => window().document.body : undefined;
@@ -74,11 +82,11 @@ const drawer = (
                 {item}
               </Button>
             ))}
+         
           </Box>
         </Toolbar>
       </AppBar>
       <nav>
-        
         <Drawer
           container={container}
           variant="temporary"
@@ -99,7 +107,7 @@ const drawer = (
       </nav>
       <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
-        
+
         {/* <Typography>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique unde
           fugit veniam eius, perspiciatis sunt? Corporis qui ducimus quibusdam,

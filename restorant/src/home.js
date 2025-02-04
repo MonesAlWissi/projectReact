@@ -24,6 +24,30 @@ export default function Home (){
       </div>
       
      < SimpleBottomNavigation/>
+     <div id='homeEnd'>
+      <div>
+      <img src="Screenshot_12.png"></img>
+        
+      </div>
+      <div id='HomeH'>
+       <h1>The Story</h1>
+       <p>Lorem lpsum is that it has a more-or-less normal distribution of letters,as
+         opposed to using Content here, content gfshere',
+         makinlook like readable English.Many desktop publishing packages.</p>
+         <div id='Home3'>
+          <div>
+       <h1>1966</h1>
+       <p>Lorem lpsum is that it has a 
+        <br/>more-or-less normal <br/>distributio</p>
+        </div>
+        <div id='HomeH2'>
+       <h1>2021</h1>
+       <p>Lorem lpsum is that it has<br/> a more-or-less normal<br/> Content content</p>
+
+       </div>
+      </div>
+     </div>
+     </div>
       </>
     )
 }
