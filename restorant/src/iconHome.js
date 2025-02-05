@@ -22,7 +22,7 @@ export default function SimpleBottomNavigation() {
         }}
       >
         <BottomNavigationAction  label="Locate Us" icon={<LocationOnIcon />} />
-        <BottomNavigationAction label="Open Hours" icon={<RestoreIcon />} />
+        <BottomNavigationAction label="Open Hours" icon={<RestoreIcon style={{color:"orange"}} />} />
         <BottomNavigationAction label="Reservation" icon={<FavoriteIcon />} />
         
       </BottomNavigation>

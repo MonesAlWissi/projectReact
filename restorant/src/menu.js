@@ -23,14 +23,13 @@ export default function Menu (){
         <p>MENU</p>
         <p>____________</p>
         <h1>Popular Dishes</h1>
-        <input type="search" placeholder="Search Here ⭐" >
+        <input  type="search" placeholder="Search Here ⭐" >
         
         </input>
         <Paper
       component="form"
-      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400 }}
-    >
-      
+      sx={{ p: '2px 4px', display: 'flex', alignItems: 'center', width: 400,border:"2px solid blue" }}
+      >
       <InputBase
         sx={{ ml: 1, flex: 1 }}
         placeholder="Search Here"

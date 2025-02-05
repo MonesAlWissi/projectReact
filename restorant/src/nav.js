@@ -53,8 +53,8 @@ const drawer = (
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav" style={{backgroundColor:'black'}}>
-        <Toolbar>
+      <AppBar component="nav">
+        <Toolbar style={{backgroundColor:"black"}}>
           <IconButton
             color="inherit"
             aria-label="open drawer"
@@ -74,7 +74,7 @@ const drawer = (
           </Typography>
           <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             {navItems.map((item) => (
-              <Button key={item} sx={{ color: '#fff' }}>
+              <Button key={item} sx={{ color: 'white' }} href={item}>
                 {item}
               </Button>
             ))}

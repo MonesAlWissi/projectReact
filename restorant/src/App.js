@@ -14,22 +14,23 @@ import Home from './home';
 function App() {
 
   return (
-    // <Router>
-    <div className="App">
+    <>
+    <Router>
     <DrawerAppBar/>
-    <Home/>
-      {/* <Routes> */}
-    {/* <Route path='/' element={<Home/>} /> */}
+      <Routes>
+    <Route path='/' element={<Home/>} />
+    <Route path='/home' element={<Home/>} />
+    <Route path='/menu' element={<Menu/>} />
    
     
-    {/* </Routes> */}
+    </Routes>
       
   
      
     <RestaurantFooter/>
     
-    </div>
-    // </Router>
+     </Router>
+     </>
 
   );
  
