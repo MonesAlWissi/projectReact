@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import {Routes,Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes,Route} from 'react-router-dom'
 import { Link } from 'react-router-dom';
 import { styled } from '@mui/material';
 import PrimarySearchAppBar from './nav';
@@ -8,29 +8,29 @@ import Menu from './menu';
 import RestaurantFooter from './footer'
 import DrawerAppBar from './nav';
 import Home from './home';
-import React, { useRef } from 'react';
+// import React, { useRef } from 'react';
 
 
 function App() {
 
   return (
-    
-    <Routes>
+    // <Router>
     <div className="App">
     <DrawerAppBar/>
-      
-    {/* <Route path='menu' element={<Menu/>} /> */}
-    <Home></Home>
+    <Home/>
+      {/* <Routes> */}
+    {/* <Route path='/' element={<Home/>} /> */}
+   
     
+    {/* </Routes> */}
       
   
      
     <RestaurantFooter/>
     
     </div>
-    
-    </Routes>
-    
+    // </Router>
+
   );
  
 }

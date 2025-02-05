@@ -15,7 +15,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material';
-import './nav.css'
+
 
 import { Link } from 'react-router-dom';
 
@@ -30,7 +30,7 @@ function DrawerAppBar(props) {
     setMobileOpen((prevState) => !prevState);
   };
 const drawer = (
-    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center', backgroundColor:'black' }}>
       <Typography variant="h6" sx={{ my: 2 }}>
         MUI
       </Typography>
@@ -53,7 +53,7 @@ const drawer = (
   return (
     <Box sx={{ display: 'flex' }}>
       <CssBaseline />
-      <AppBar component="nav">
+      <AppBar component="nav" style={{backgroundColor:'black'}}>
         <Toolbar>
           <IconButton
             color="inherit"
