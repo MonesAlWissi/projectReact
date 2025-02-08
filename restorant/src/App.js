@@ -9,8 +9,11 @@ import RestaurantFooter from './footer'
 import DrawerAppBar from './nav';
 import Home from './home';
 // import React, { useRef } from 'react';
-
-
+import Reserav from './reseravation';
+import Login from './login';
+import Contact from './contact';
+import About from './about';
+import Allmeneu from './allmeneu';
 function App() {
 
   return (
@@ -21,7 +24,12 @@ function App() {
     <Route path='/' element={<Home/>} />
     <Route path='/home' element={<Home/>} />
     <Route path='/menu' element={<Menu/>} />
-   
+    <Route path='/reseravation' element={<Reserav/>} />
+    <Route path='/login' element={<Login/>} />
+    <Route path='/contact' element={<Contact/>} />
+    <Route path='/about' element={<About/>} />
+    <Route path='/allmeneu' element={<Allmeneu/>} />
+
     
     </Routes>
       

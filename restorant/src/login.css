@@ -1,0 +1,47 @@
+.pLogin{
+    color: orange;
+    text-align: center;
+    margin: -20px;
+}
+.pLogin1{
+    text-align: center;
+    margin-bottom: -20px;
+   
+}
+.pLogin2{
+    text-align: center;
+    color: gray;
+}
+.inputLogin{
+    text-align: center;
+    margin-left: 375px;
+    color: gray;
+}
+.buttonLogin{
+    width: 505px;
+    height: 55px;
+    margin-left: 370px;
+   background-color: orange;
+   border-radius: 5px;
+}
+.orLogin{
+    text-align: center;
+}
+.endLogin{
+    text-align: center;
+}
+.buttonLogin12{
+    width: 505px;
+    height: 55px;
+    margin-left: 370px;
+   
+   border-radius: 5px;
+}
+.colorSpan{
+    color: orange;
+}
+/* .divLogin{
+    background-color: blanchedalmond;
+    margin-left: 200px;
+    margin-right: 200px;
+} */

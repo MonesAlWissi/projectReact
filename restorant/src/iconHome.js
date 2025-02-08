@@ -21,9 +21,9 @@ export default function SimpleBottomNavigation() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction  label="Locate Us" icon={<LocationOnIcon />} />
+        <BottomNavigationAction  label="Locate Us" icon={<LocationOnIcon style={{color:"orange"}} />} />
         <BottomNavigationAction label="Open Hours" icon={<RestoreIcon style={{color:"orange"}} />} />
-        <BottomNavigationAction label="Reservation" icon={<FavoriteIcon />} />
+        <BottomNavigationAction label="Reservation" icon={<FavoriteIcon style={{color:"orange"}} />} />
         
       </BottomNavigation>
     </Box>

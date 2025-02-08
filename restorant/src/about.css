@@ -1,0 +1,110 @@
+
+
+.sboutGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.aboutP{
+    margin-left: 100px;
+}
+.aboutP1{
+    color: orange;
+    margin: -20px;
+    margin-left: 1px;
+}
+.aboutP2{
+    margin-bottom: -20px;
+}
+.aboutpColar{
+    color: grey;
+}
+.aboutButton{
+    background-color: rgba(255, 115, 0, 0.918);
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.imgAbout{
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.aboutP11{
+    color: orange;
+    margin: -20px;
+    /* margin-left: 2px; */
+    text-align: center;
+}
+.aboutP22{
+    text-align: center;
+    margin-bottom: -20px;
+}
+.aboutP222{
+    text-align: center;
+}
+.aboutTeam{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: 140px;
+}
+.teamh3{
+  margin-left: 20px;
+
+}
+.teamhp{
+    color: grey;
+    margin-left: 20px;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.listImg{
+   margin-left: 350px;
+}
+.endAbout {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://www1.lovethatdesign.com/wp-content/uploads/2021/05/Love-That-Design-The-Lombard-Restaurant-Jordan-5-1536x1023.jpg');
+    background-size: cover; 
+    background-position: center; 
+    margin-top: 100px;
+   
+
+}
+.endTablep{
+    color: orangered;
+    margin: -20px;
+    margin-left: 1px;
+   
+}
+.endTablepp{
+    color: white;
+    margin-bottom: -20px;
+   
+}
+.endTableh{
+    color: white;
+    
+}
+.aboutform{
+    text-align: center;
+}
+.inputAbout{
+    width: 350px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.inputAbout1{
+    width: 200px;
+    height: 50px;
+    margin: 15px;
+    border-radius: 5px;
+}
+.buttonAbout{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: orange;
+    font-size: larger;
+}

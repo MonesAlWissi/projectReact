@@ -1,0 +1,51 @@
+.pReserv{
+    text-align: center;
+    color: orange;
+    margin-bottom: -20px;
+    margin-top: -35px;
+
+}
+.pReserv1{
+    text-align: center;
+   
+}
+.hReserv{
+    text-align: center;
+}
+#reservGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+#imgReserv{
+    width: 100%;
+    margin-left: 10px;
+    border-radius: 15px;
+
+}
+.pReserv2{
+    
+    color: orange;
+    margin-bottom: -20px;
+    margin-top: -35px;
+}
+#dataReserv{
+    margin-left: 80px;
+    margin-top: 20px;
+    
+}
+.colorReserv{
+    color: grey;
+    font-size: 15px;
+}
+#buttonReserv{
+ margin-left: 10px;
+ margin-top: 5px;
+   background-color: orange;
+   width: 120px;
+   height: 50px;
+   border-radius: 5px;
+}
+#imgR{
+    text-align: center;
+    margin-top: 150px;
+}
